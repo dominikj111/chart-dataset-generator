@@ -1,0 +1,25 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node16",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "src/Types/",
+    "sourceMap": true,
+    "lib": ["es2022", "DOM", "es2022.String"],
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "(Base)/*": ["src/Base/*"]
+    }
+  }
+}
