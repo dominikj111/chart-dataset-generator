@@ -1,0 +1,16 @@
+{
+  "name": "chart-generator",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@types/echarts": "4.9.22",
+    "typescript": "5.4.5",
+    "vite": "5.2.12"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "type": "module"
+}
